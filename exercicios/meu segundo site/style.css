@@ -9,6 +9,7 @@ body{
     min-height: 100vh;
     margin: 0px;
     font-family: var(--font02);
+    font-size: 25px;
 
 }
 header{
@@ -43,10 +44,26 @@ section{
 }
 .foto{
     background-color: bisque;
+    box-shadow: inset 0px 4px 15px rgba(0, 0, 0, 0.712);
+    background-attachment: fixed;
 }
 .foto > p{
-    background-color: rgba(0, 0, 0, 0.377);
+    background-color: rgba(94, 86, 86, 0.377);
+    padding: 5px;
+    border-radius: 5px;
     display: inline-block;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+#img01{
+    background-image: url('imagens/background001.jpg');
+    background-position: right center;
+    background-size: cover;
+}
+#img02{
+    background-image: url('imagens/background002.jpg');
+    background-position: right center;
+    background-size: cover;
 }
 footer{
     background-color: black;
