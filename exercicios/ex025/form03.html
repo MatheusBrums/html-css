@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário 03</title>
+</head>
+<body>
+    <h1>Partiu formulários</h1>
+    <form action="cadastro.php" method="get"> 
+    <p>
+        <label for="iname">Name:</label>
+        <input type="text" name="name" id="iname" required placeholder="Complete name!" autocomplete="name">
+    </p>
+    <p>
+        <label for="imedia">Média:</label>
+        <input type="number" name="media" id="imedia" step="0.1" required>
+    </p>
+    <p>
+        <label for="imes">Período Letivo</label>
+        <input type="month" name="mes" id="imes">
+    </p>
+    <p>
+        <input type="submit" value="SEND">
+        <input type="reset" value="RESET">
+    </p>
+    </form>
+</body>
+</html>

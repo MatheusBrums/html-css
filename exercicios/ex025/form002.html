@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários 02</title>
+</head>
+<body>
+    <form action="cadastro.php" method="post" autocomplete="on">
+        <p>
+            <label for="iusu">Usuário: </label>
+            <input type="text" name="usu" id="iusu" required maxlength="15" placeholder="Digite seu nickname" autocomplete="username">
+        </p>
+        <p>
+            <label for="ipin">Senha: </label>
+            <input type="password" name="pin" id="ipin" required minlength="5" maxlength="20" placeholder="digite uma senha" autocomplete="new-password">
+        </p>
+        <p>
+            <input type="submit" value="send">
+            <input type="reset" value="clear">
+        </p>
+    </form>
+</body>
+</html>

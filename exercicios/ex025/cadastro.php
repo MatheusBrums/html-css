@@ -1,0 +1,1 @@
+Vai se foder voce ainda não sabe usar php, calvo.
