@@ -1,0 +1,149 @@
+@charset "UTF-8";
+/*
+#ebe5c5
+#83e1ad
+#3ddc84
+#2fa866
+#1a5c37
+#063d1e
+*/
+@font-face {
+    font-family: 'fontandroid';
+    src: url(fontes/idroid.otf);
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    color: white;
+    background-image: linear-gradient(#2fa866, #063d1e);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.411);
+    font-size: 1.2em;
+    padding-top: 20px;
+}
+.center{
+    text-align: center;
+}
+.subtittle{
+    padding-bottom: 70px;
+}
+header > h1{
+    padding: 20px;
+}
+
+nav > p{
+    color: #3ddc84;
+    padding: 10px;
+    padding-left: 20px;
+    display: inline-block;
+    text-shadow: none;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+nav > p:hover{
+    color: #063d1e;
+    background-color: #3ddc84;
+    border-radius: 10px;
+    
+}
+main{
+    background-color: #ebe5c5;
+}
+#container01{
+    background-color: white;
+    margin: auto;
+    max-width: 1000px;
+    padding: 20px;
+    box-shadow: 3px 3px 8px 2px rgba(0, 0, 0, 0.144);
+}
+.fontandroid{
+    font-family: 'fontandroid', Arial, Helvetica, sans-serif;
+}
+#container01 h1{
+    color: #063d1e;
+    font-weight: normal;
+    padding: 15px 0px;
+}
+#container01 p{
+    text-indent: 20px;
+    padding: 15px 0px;
+    line-height: 25px;
+    
+}
+strong{
+    color: #1d6b40;
+}
+a{
+    font-weight: bold;
+    text-decoration: none;
+}
+main a{
+    background-color: #83e1ad;
+    color: #063d1e;
+    padding: 3px;
+}
+main a:hover{
+    text-decoration: underline;
+}
+main a::after{
+    content: "➥";
+}
+.margina{
+    text-align: center;
+    margin: auto;
+}
+.irina{
+    max-width: 100%;
+}
+.img2{
+    width: 400px;
+}
+#container01 h3{
+    padding: 5px;
+    color: #063d1e;
+    font-weight: normal;
+    font-family: 'fontandroid', Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right,#3ddc84, transparent);
+}
+.video{
+    background-color: #063d1e;
+    margin: 20px -20px;
+    height: 500px;
+    padding: 20px;
+}
+.video iframe{
+    width: 100%;
+    height: 100%;
+}
+.extra2{
+    background-color: #83e1ad;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 20px;
+}
+h4{
+    background-color: #063d1e;
+    color: white;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+footer{
+    background-color: #063d1e;
+    text-align: center;
+    color: white;
+    padding: 5px;
+}
+ul{
+    list-style-position: inside;
+    columns: 2;
+
+}
+footer  a{
+    color: white;
+    
+}footer  a:hover{
+    text-decoration: underline;
+}
