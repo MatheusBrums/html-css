@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+nav a{
+    display: none;
+    text-align: center;
+    margin: auto;
+    margin-top: 5px;
+}
+p#pp{
+    display: block;
+    background-color: aquamarine;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: -20px;
+}
+main{
+    margin-top: 0px;
+    border-radius: 0px;
+}

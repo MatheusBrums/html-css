@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+body{
+}
+main{
+    max-width: 1100px;
+}
+.section01{
+    background-image: url(img/pc.jpg);
+    background-position: center top;
+    float: left;
+    width: 50%;
+    height: 503px;
+    border-top-right-radius: 0px;
+}
+.section02{
+    width: 50%;
+    float: right;
+}

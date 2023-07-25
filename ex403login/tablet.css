@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+body{
+    height: 80vh;
+    background-image: linear-gradient(to bottom, transparent, rgb(9, 201, 191));
+}
+main{
+    overflow: auto;
+}
+.section01{
+      background-image: url(img/tablet.jpg);
+      width: 50%;
+      height: 523px;
+      float: left;
+      border-top-right-radius: 0px;
+
+}
+.section02{
+    width: 50%;
+    float: right;
+}
