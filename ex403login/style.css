@@ -12,15 +12,17 @@
     padding: 0px;
 }
 body{
+    height: 100vh;
     background-color: rgba(80, 0, 133, 0.842);
-  
+    position: relative;
 }
 main{
-    
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
     width: 90vw;
     background-color: white;
-    margin: auto;
-    margin-top: 20vh;
     border-radius: 15px;
     padding: 20px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -49,12 +51,33 @@ h1{
     font-weight: bold;
     color: var(--cor3);
 }
-input{
-    display: block;
-    width: 100%;
+div{
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.322);
+    border-radius: 5px;
+    margin-top: 10px;
+}
+div > input{
+    display: inline-block;
+    width: calc(100% - 29px);
+    box-sizing: border-box;
+    background-color: white;
+    border: none;
+    padding: 10px;
+}
+input[type = submit]{
     padding: 10px;
     box-sizing: border-box;
+    width: 100%;
     margin-top: 10px;
+    background-color: #5efc8d;
+    border: none;
+    border-radius: 5px;
+    font-weight: bolder;
+}
+input[type = submit]:hover{
+    border: 1px solid black;
+    background-color: #42ff7b;
+
 }
 .esqueci{
     margin-top: 10px;
@@ -63,13 +86,14 @@ input{
     padding: 10px;
     box-sizing: border-box;
     border-radius: 5px;
-    border: 1px solid black;
+    
 }
 .section02 a{
     color: white;
-    font-weight: bolder;
+    font-weight: bold;
     text-decoration: none;
 }
 .esqueci:hover{
     background-color: #7100bd;
+    border: 1px solid black;
 }
